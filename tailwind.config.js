@@ -6,9 +6,13 @@ module.exports = {
     extend: {
       screens:{
         "f-96": "960px",
-        "f-925": "925px"
-      }
-    },
+        "f-925": "925px",
+        "f-575": "575px"
+      },
+      backgroundImage: theme=>({
+        "bannerOneSide": "url('https://cdn.bannerflow.com/resources/mpu-1-8250e801-6290-485b-8185-bb4d092e65b8-102o12C.jpg')"
+      })
+    }
   },
   variants: {
     extend: {},
